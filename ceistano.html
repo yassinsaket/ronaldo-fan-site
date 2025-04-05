@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="GIyVYGUP9gI5S7SxSQX9clEkOLyi0rgBt4ioHhHcZXE" />
+    <link rel="icon" type="image/png" href="football.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo | Football Legend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+           
+            background-image: url("foot.jpg");
+            margin-top: 100px; 
+            background-repeat: no-repeat; 
+            color: #0c0808;
+            line-height: 1.6;
+        }
+
+        .container {
+          
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            background: #777777;
+            color: rgb(45, 41, 41);
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffc107;
+        }
+
+        .hero {
+            background: url('cristiano-ronaldo-bg.jpg') no-repeat center center/cover; /* Your image background */
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.6); /* Dark background for text readability */
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            color: #ffc107; /* Gold color for the heading */
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: #fff; /* White color for the paragraph text */
+        }
+
+        .about, .gallery, .contact {
+            padding: 60px 0;
+        }
+
+        .about h2, .gallery h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            color: #0d1b2a;
+        }
+
+        .gallery .images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 12px;
+            background: #f9fcff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contact button:hover {
+            background: #1b263b;
+        }
+
+        .footer {
+            background: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .article-content {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .article-content h2 {
+            font-size: 2.5rem;
+            color: #0d1b2a;
+        }
+
+        .article-content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            margin-top: 30px;
+        }
+
+        .links a {
+            display: block;
+            color: #0d1b2a;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+
+        .links a:hover {
+            color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Cristiano Ronaldo</h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to the world of CR7</h2>
+            <p>Discover the story of one of the greatest football players in history.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Cristiano Ronaldo</h2>
+            <p><strong>Cristiano Ronaldo dos Santos Aveiro</strong>, born February 5, 1985, is a Portuguese footballer known for his incredible goal-scoring ability and relentless determination. His journey from Madeira to becoming a global icon is inspiring millions worldwide.</p>
+        </div>
+    </section>
+
+    <section class="article-content">
+        <div class="container">
+            <h2>Cristiano Ronaldo: A Legend's Journey</h2>
+            <p><strong>Cristiano Ronaldo</strong>, born on February 5, 1985, in Funchal, Madeira, Portugal, is widely regarded as one of the greatest footballers in history. His career, spanning over two decades, showcases remarkable achievements and records that have left an indelible mark on the sport.</p>
+
+            <h3>Early Life and Career</h3>
+            <p>Growing up in modest circumstances, Ronaldo's talent was evident from a young age. He began his professional journey with Sporting CP in Portugal before making a high-profile move to Manchester United in 2003 at 18. During his time with United, Ronaldo secured three Premier League titles, an FA Cup, two League Cups, and the UEFA Champions League in 2008. That same year, he earned his first Ballon d'Or award.</p>
+
+            <h3>Success at Real Madrid</h3>
+            <p>In 2009, Ronaldo transferred to Real Madrid for a then-record fee. His tenure at Madrid was illustrious, featuring four Champions League titles and two La Liga championships. He also amassed numerous individual honors, including multiple Ballon d'Or awards, solidifying his status as one of the world's premier players.</p>
+
+            <h3>Stints with Juventus and Return to Manchester United</h3>
+            <p>Ronaldo's pursuit of new challenges led him to Juventus in 2018, where he clinched two Serie A titles. He returned to Manchester United in 2021, contributing significantly to the team's efforts in domestic and European competitions.</p>
+
+            <h3>Recent Developments</h3>
+            <p>In December 2022, Ronaldo signed with Al-Nassr FC in Saudi Arabia. His impact was immediate; in April 2025, he scored twice in a 3-1 victory over Al-Hilal, bringing his season tally to 21 goals. This achievement marked the 15th time in 17 years that Ronaldo has scored at least 20 league goals in a season, underscoring his enduring prowess.</p>
+
+            <h3>Records and Achievements</h3>
+            <ul>
+                <li><strong>UEFA Champions League:</strong> Holds records for most goals (140) and assists (42).</li>
+                <li><strong>International Football:</strong> As of March 2025, he has scored 14 goals in European Championships, making him the tournament's all-time top scorer.</li>
+                <li><strong>Career Goals:</strong> Surpassed 900 official career goals, a milestone achieved by few in football history.</li>
+            </ul>
+
+            <h3>Off the Field</h3>
+            <p>Beyond football, Ronaldo is known for his philanthropic efforts, including significant charitable donations and establishing a cancer research center in honor of his father. He also maintains a strong presence on social media, being one of the most followed individuals globally.</p>
+
+            <div class="links">
+                <a href="https://www.reuters.com/sports/soccer/ronaldo-double-leads-al-nassr-3-1-win-al-hilal-2025-04-04/?utm_source=chatgpt.com" target="_blank">Ronaldo Double Leads Al-Nassr to 3-1 Win at Al-Hilal</a>
+                <a href="https://www.britannica.com/biography/Cristiano-Ronaldo?utm_source=chatgpt.com" target="_blank">Cristiano Ronaldo | Biography, Football, & Facts | Britannica</a>
+                <a href="https://spyscape.com/article/cristiano-ronaldo-from-poverty-to-family-and-football-superstardom" target="_blank">Cristiano Ronaldo: From Poverty to Family and Football Superstardom</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="images">
+                <img src="cristiano.webp" alt="Cristiano Ronaldo">
+                <img src="cristiano12.jpg" alt="Cristiano Ronaldo celebrating">
+                <img src="cristiano33.webp" alt="Cristiano Ronaldo training">
+                <img src="cristyano.jpg" alt="cristiano ronaldo">
+                <img src="jorjina.jpg" alt="cristiano and georgina">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form onsubmit="return showMessage(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cristiano Ronaldo Fan Site. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll effect
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission confirmation
+        function showMessage(e) {
+            e.preventDefault();
+            alert("Thank you for contacting us! We'll get back to you soon.");
+            e.target.reset();
+            return false;
+        }
+    </script>
+</body>
+</html>
